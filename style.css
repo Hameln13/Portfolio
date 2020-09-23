@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+    height: 65px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left {
+    float: left;
+}
+.header-left h1 {
+    color: white;
+    margin-top: 10px;
+}
+.header-right {
+    float: right;
+}
+header li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.about_me {
+    background-image: url(top.jpg);
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    border-bottom: 65px solid black;
+}
+.about_me h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 8px;
+}
+.about_me p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.about_me h3 {
+    letter-spacing: 8px;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+
+
+
+
+.work {
+    height: 500px;
+    text-align: center;
+    background-image: url(work2.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    border-bottom: 65px solid black;
+}
+
+.work h2 {
+    font-size: 50px;
+    color: black;
+    letter-spacing: 8px;
+}
+
+.Production {
+    float: left;
+    width: 50%;
+    color: white;
+    margin-top: 30px;
+}
+
+.web_skills {
+    padding-top: 50px;
+    height: 500px;
+    border-bottom: 65px solid black;
+}
+.web_skills h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.item {
+    margin-top: 150px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.item i {
+    font-size: 100px;
+}
+.contact_form {
+    background-image: url(contact.jpg);
+    background-size: cover;
+    height: 600px;
+    border-bottom: 65px solid black;
+    text-align: center;
+    padding-top: 350px;
+    padding-left: 150px;
+}
+
+input,textarea {
+    width: 400px;
+}

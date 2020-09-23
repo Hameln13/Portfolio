@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shun's profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <h1>Shun's PROFILE</h1>
+            </div>
+            <nav class="header-right">
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#works">WORKS</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        
+        <section id="about">
+            <div class="about_me">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <p>Shun   (濱野　瞬)</p>
+                    <p>1993/2/13</p>
+                    <p>栃木県出身</p>
+                    <p>Australia,New Zealandに留学経験ありの多少英語に抵抗のない人</p>
+                    <p>現在HTML&CSS,Javasquliptなど独学で勉強中の修行僧</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="works">
+            <div class="work">
+                <div class="container">
+
+                    <h2>works</h2>
+                    <h3>過去の作品</h3>
+
+                    <div class="Production">
+                        <!-- 友達の理容室イメージ -->
+                        <img src="prodction.jpg" alt="" height="100px" width="100px">
+                        <a href="#"> 理容室</a>
+                    </div>
+                    <div class="Production">
+                        <!-- これから -->
+                        <img src="prodction.jpg" alt="" height="100px" width="100px>
+                        <a href="#">これから</a>
+                    </div>
+                    <div class="Production">
+                        <!-- 模写サイト -->
+                        <img src="prodction.jpg" alt="" height="100px" width="100px>
+                        <a href="#">模写サイト1</a>
+                    </div>
+                    <div class="Production">
+                        <!-- 模写サイト -->
+                        <img src="prodction.jpg" alt="" height="100px" width="100px>
+                        <a href="#">模写サイト2</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="web_skills">
+                <div class="container">
+                    <h2>Skills</h2>
+                    <div class="item">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML&CSS</p>
+                    </div>
+                    <div class="item">
+                        <i class="fab fa-js-square"></i>
+                        <p>Javasqulipt</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact_form">
+                <div class="container">
+                    <form action="sent.php"  method="POST">
+                        <p>Your Name</p>
+                        <input type="text" name="name">
+                        <p>Your Email</p>
+                        <input type="text" name="email">
+                        <p>Subject</p>
+                        <input type="text" name="subject">
+                        <p>Message....</p>
+                        <textarea name="message" id="" cols="30" rows="10"></textarea>
+                        <br>
+                        <br>
+                        <input type="submit" value="送信">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+  
+  
+          
+    </main>
+</body>
+</html>
